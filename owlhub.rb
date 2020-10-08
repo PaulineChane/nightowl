@@ -1,6 +1,7 @@
 require 'httparty'
 require 'dotenv'
 require_relative 'nightowl'
+Dotenv.load
 
 nightowl = NightOwl.new
 
